@@ -1,0 +1,18 @@
+@media screen and (max-width: 790px) {
+    .related {
+        .container {
+            .related__inner {
+            
+                .related__bottom {
+                    overflow-x: scroll;
+                    
+
+                    .related__product {
+                        width: 145px;
+                    }
+                }
+    
+            }
+        }
+    }
+}

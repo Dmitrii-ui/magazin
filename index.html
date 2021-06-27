@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-Магазин</title>
+    <link rel="stylesheet" href="css/bundle.min.css">
+    <link rel="stylesheet" href="css/media.bundle.min.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top__inner">
+                    <ul class="menu__list">
+                        <li class="menu__list__item">
+                            <a href="" class="menu__list__link">
+                                <span class="menu__link__text">Login / Signup</span>
+                            </a>
+                        </li>
+                        <li class="menu__list__item">
+                            <a href="" class="menu__list__link">
+                                <span class="menu__link__text">USD</span>
+                            </a>
+                            <a href="" class="menu__list__link">
+                                <span class="menu__link__text">Help</span>
+                            </a>
+                        </li>
+                        <li class="menu__list__item">
+                            <a href="" class="menu__list__link">
+                                <span class="menu__link__text"><img src="" alt=""> Wishlist</span>
+                            </a>
+                        </li>
+                        <li class="menu__list__item">
+                            <a href="" class="menu__list__link">
+                                <span class="menu__link__text">English</span>
+                            </a>
+                            <button class="menu__list__button">
+                                download app
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header__middle">
+            <div class="container">
+                <div class="header__middle__inner">
+                    <p class="header__middle__left">
+                        <img src="img/supermart.png" alt=""> supermart
+                    </p>
+                    <div class="header__middle__right">
+                        <form action="#" class="header__middle__form">
+                            <input class="form__input" type="text" placeholder="search...">
+                            <div class="form__select__wrapper">
+                                <select name="" id="" class="form__select">
+                                    <option value="all">All Categories</option>
+                                    <option value="honey-cream">Honey cream</option>
+                                    <option value="honey">Honey</option>
+                                </select>
+                            </div>
+                            <button class="form__search" type="submit">
+                                <img src="img/search.png" alt="">
+                            </button>
+                        </form>
+                        <div class="header__user__basket">
+                            <button class="user__basket">
+                                <img src="img/bag.png" alt="">
+                            </button>
+                            <p class="basket__num">0 Item: <span class="basket__price">$0.00</span></p>
+                            <p class="basket__num open">0 Item: <span class="basket__price">$0.00</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="header__bottom__inner">
+                    <div class="header__catalog">
+                        <button class="header__catalog__button">
+                            departments 
+                            <div class="header__catalog__decorate">
+                                <span class="catalog__decorate"></span>
+                                <span class="catalog__decorate"></span>
+                                <span class="catalog__decorate"></span>
+                            </div>
+                        </button>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="nav__menu">
+                            <li class="nav__menu__list">
+                                <a href="#" class="nav__menu__link">home</a>
+                            </li>
+                            <li class="nav__menu__list">
+                                <a href="#" class="nav__menu__link">shop</a>
+                            </li>
+                            <li class="nav__menu__list list__hot">
+                                <a href="#" class="nav__menu__link">fashion</a>
+                            </li>
+                            <li class="nav__menu__list list__new">
+                                <a href="#" class="nav__menu__link">electronics</a>
+                            </li>
+                            <li class="nav__menu__list">
+                                <a href="#" class="nav__menu__link">pages</a>
+                            </li>
+                            <li class="nav__menu__list">
+                                <a href="#" class="nav__menu__link">features</a>
+                            </li>
+                            <li class="nav__menu__list">
+                                <a href="#" class="nav__menu__link">blog</a>
+                            </li>
+                        </ul>
+
+                        <p class="header__phone">
+                            call us free: <span class="header__phone__number">1-800-777-7889</span>
+                        </p>
+                    </nav>
+
+                    <div class="header__catalog__option hidden">
+                        <ul class="header__catalog__options">
+                            <li class="catalog__option__title">Натуральный мёд</li>
+                            <li class="catalog__option__item">крем-мёд</li>
+                            <li class="catalog__option__item">жидкий мёд</li>
+                            <li class="catalog__option__item">бортевой мёд</li>
+                        </ul>
+                        <ul class="header__catalog__options">
+                            <li class="catalog__option__title">Цветочный мёд</li>
+                            <li class="catalog__option__item">мёд-манука</li>
+                            <li class="catalog__option__item">сотовый мёд</li>
+                            <li class="catalog__option__item">падевый мёд</li>
+                        </ul>
+                        <ul class="header__catalog__options">
+                            <li class="catalog__option__title">Смешанный мёд</li>
+                            <li class="catalog__option__item">крем-мёд</li>
+                            <li class="catalog__option__item">липовый мёд</li>
+                            <li class="catalog__option__item">мёд с имбирем</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs__inner">
+                <div class="slider__buttons">
+                    <button class="slider__btn">
+                        <img src="img/left__arrow.png" alt="">
+                    </button>
+                    <button class="slider__btn">
+                        <img src="img/right__arrow.png" alt="">
+                    </button>
+                </div>
+                <div class="breadcrumbs__elems">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__list__item">
+                            <a href="#">home</a>
+                        </li>
+                        <li class="breadcrumbs__list__item">
+                            <a href="#">shop</a>
+                        </li>
+                        <li class="breadcrumbs__list__item">
+                            <a href="#">out of stock product</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="product">
+        <div class="container">
+            <div class="product__inner">
+                <div class="product__left">
+                    <h1 class="product__info__title">Vistalia Pure Honey</h1>
+                    <div data-star-total="0" class="product__rating__stars">
+                        <button class="star__item">★</button>
+                        <button class="star__item">★</button>
+                        <button class="star__item">★</button>
+                        <button class="star__item">★</button>
+                        <button class="star__item">★ </button> 
+                        (5 Customers reviews)
+                    </div>
+                    <h3 class="product__price">$18.00</h3>
+                    <p class="product__info__text">
+                    <div class="product__img">
+                        <img src="img/honey1.jpg" alt="">
+                    </div>
+                </div>
+                
+                <div class="product__right">
+                    <div class="product__info">
+                        <h1 class="product__info__title">Vistalia Pure Honey</h1>
+                        <div data-star-total="0" class="product__rating__stars">
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★ </button> 
+                            (5 Customers reviews)
+                        </div>
+                        <h3 class="product__price">$18.00</h3>
+                        <p class="product__info__text">
+                            This regulator has a rolled diaphragm and high flow rate with reduced pressure drop.
+                            It has an excellent degree of condensation separation and comes with a semi
+                            automatic or automatic drain. 
+                        </p>
+                        <div class="product__condition">
+                            <a href="#" class="out__of__stock">Out of Stock</a>
+                            <a href="#" class="available">Gift-wrap available</a>
+                        </div>
+                        <div class="product__buttons">
+                            <button class="product__btn">
+                                <img src="img/heart.png" alt="">
+                            </button>
+                            <button class="product__btn">
+                                <img src="img/right__left__arrows.png" alt="">
+                            </button>
+                        </div>
+                        <div class="product__additional__information">
+                            <p class="information__name">SKU: <span class="information__value">017</span></p>
+                            <p class="information__name">Category: <span class="information__value">Outerwear, Hoodies</span></p>
+                            <p class="information__name">Tags: <span class="information__value">Clothing, Mens</span></p>
+                        </div>
+                        <div class="product__links">
+                            Share: 
+                            <a href="#"><img src="img/facebook.png" alt=""> Share</a>
+                            <a href="#"><img src="img/tweeter.png" alt=""> Tweet</a>
+                            <a href="#"><img src="img/pinit.png" alt=""> Pin it</a>
+                            <a href="#">+521</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="information">
+        <div class="container">
+            <div class="information__inner">
+                <a href="#" class="information__link__active information__link active">description</a>
+                <a href="#" class="information__link__active information__link">customer review</a>
+                <a href="#" class="information__link__active information__link">additional information</a>
+                <div class="information__wrapper">
+                    <div class="information__tabs">
+                        <a href="tab-1" class="information__link hidden">description</a>
+                        <a href="tab-2" class="information__link">customer review</a>
+                        <a href="tab-3" class="information__link">additional information</a>
+                    </div>
+                    <div class="information__content">
+                        <div id="tab-1" class="information__tab active">
+                            <h2 class="tab__title">reviews for vistalia pure honey(description)</h2>
+                            <p class="tab__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use asses of passage of Lorem Ipsum, you need to be sure there isn't anything embarrasing hidden in the middle of text. All there Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true gen erator on the Internet. It usees a dictionary of over 200 Latin word.</p>
+                        </div>
+                        <div id="tab-2" class="information__tab">
+                            <h2 class="tab__title">reviews for vistalia pure honey(customer review)</h2>
+                            <p class="tab__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use asses of passage of Lorem Ipsum, you need to be sure there isn't anything embarrasing hidden in the middle of text. All there Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true gen erator on the Internet. It usees a dictionary of over 200 Latin word.</p>
+                        </div>
+                        <div id="tab-3" class="information__tab">
+                            <h2 class="tab__title">reviews for vistalia pure honey(additional information)</h2>
+                            <p class="tab__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use asses of passage of Lorem Ipsum, you need to be sure there isn't anything embarrasing hidden in the middle of text. All there Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true gen erator on the Internet. It usees a dictionary of over 200 Latin word.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="related">
+        <div class="container">
+            <div class="related__inner">
+                <div class="related__top">
+                    <h2 class="related__title">related products</h2>
+                    <div class="related__buttons">
+                        <button class="related__btn">
+                            <img src="img/left__arrow.png" alt="">
+                        </button>
+                        <button class="related__btn">
+                            <img src="img/right__arrow.png" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="related__bottom">
+                    <div class="related__product sale">
+                        <img src="img/product1.png" alt="">
+                        <p class="related__product__name">Jios Dual Speaker-Black</p>
+                        <p class="related__product__price">$135.00</p>
+                        <div data-star-total="0" class="product__rating__stars product__rating__stars1">
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button> 
+                        </div>
+                    </div>
+                    <div class="related__product">
+                        <img src="img/product2.jpg" alt="">
+                        <p class="related__product__name">Jackets & Coats Hoodies</p>
+                        <p class="related__product__price">$124.00</p>
+                        <div data-star-total="0" class="product__rating__stars product__rating__stars2">
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button> 
+                        </div>
+                    </div>
+                    <div class="related__product sale">
+                        <img src="img/product3.jpg" alt="">
+                        <p class="related__product__name">Halogen Room Handwear</p>
+                        <p class="related__product__price">$215.00</p>
+                        <div data-star-total="0" class="product__rating__stars product__rating__stars3">
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button> 
+                        </div>
+                    </div>
+                    <div class="related__product new">
+                        <img src="img/product4.jpg" alt="">
+                        <p class="related__product__name">Sasik External Disk-500GB</p>
+                        <p class="related__product__price">$359.00</p>
+                        <div data-star-total="0" class="product__rating__stars product__rating__stars4">
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button> 
+                        </div>
+                    </div>
+                    <div class="related__product">
+                        <img src="img/product5.jpg" alt="">
+                        <p class="related__product__name">Cillcips Air Purifier A215</p>
+                        <p class="related__product__price">$124.00</p>
+                        <div data-star-total="0" class="product__rating__stars product__rating__stars5">
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button>
+                            <button class="star__item">★</button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="features">
+        <div class="container">
+            <div class="features__inner">
+                <div class="feature__item">
+                    <img src="img/features1.png" alt="">
+                    <h5 class="feature__name">free shipping</h5>
+                    <p class="feature__text">
+                        Free Shipping on World wide Order Over $99.
+                    </p>
+                </div>
+                <div class="feature__item">
+                    <img src="img/features2.png" alt="">
+                    <h5 class="feature__name">trusted pay</h5>
+                    <p class="feature__text">
+                        100% Payment Protection & Easy Return
+                    </p>
+                </div>
+                <div class="feature__item">
+                    <img src="img/features3.png" alt="">
+                    <h5 class="feature__name">secured payment</h5>
+                    <p class="feature__text">
+                        All Major Credit & Debit Cards Accepted
+                    </p>
+                </div>
+                <div class="feature__item">
+                    <img src="img/features4.png" alt="">
+                    <h5 class="feature__name">shop on app</h5>
+                    <p class="feature__text">
+                        Just Download our App & Shop With Best Offers!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__information">
+                    <p class="footer__logo">
+                        <img src="img/supermart.png" alt=""> supermart
+                    </p>
+                    <p class="footer__text">
+                        Many say exploration is part of our dest but it's actually our duty to future and their.
+                    </p>
+                    <p class="footer__info"><span class="footer__bold">Address: </span>868 Fake Street, New York</p>
+                    <p class="footer__info"><span class="footer__bold">Phone: </span>(08) 08 4752 1499</p>
+                    <p class="footer__info"><span class="footer__bold">Email: </span>info@supermart.com</p>
+                </div>
+                <div class="footer__row">
+                    <div class="footer__column">
+                        <div class="footer__item">
+                            <ul class="footer__list list">
+                                <h5 class="list__title">company</h5>
+                                <li class="list__item">
+                                    <a href="#">Discount Vouches</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Spring Collection</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Trending</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Best Sellers</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Special Deals</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__item">
+                            <ul class="footer__list list">
+                                <h5 class="list__title">policy info</h5>
+                                <li class="list__item">
+                                    <a href="#">Discount Vouches</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Spring Collection</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Trending</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Best Sellers</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Special Deals</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__item">
+                            <ul class="footer__list list">
+                                <h5 class="list__title">my account</h5>
+                                <li class="list__item">
+                                    <a href="#">Discount Vouches</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Spring Collection</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Trending</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Best Sellers</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Special Deals</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/main.min.js"></script>
+</body>
+</html>
+
+

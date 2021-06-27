@@ -1,0 +1,99 @@
+.related__inner {
+
+    margin-bottom: 100px;
+    
+    .related__top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        .related__title {
+            font-size: 20px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #222222;
+        }
+
+        .related__btn {
+            border: 1px solid #e5e5e5;
+            cursor: pointer;
+            outline: none;
+        }
+    }
+
+    .related__bottom {
+        display: flex;
+
+
+        .related__product {
+            width: 20%;
+            border: 1px solid #e8e8e8;
+            padding: 10px 15px;
+            text-align: center;
+
+            .product__rating__stars {
+                text-align: center;
+                margin: 0 auto;
+                justify-content: center;
+            }
+
+
+            img {
+                width: 100%;
+                max-height: 300px;
+            }
+
+            .related__product__name {
+                color: #444444;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+            }
+
+            .related__product__price {
+                color: #222222;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+            }
+        }
+
+        .related__product.sale {
+            position: relative;
+
+            &::after {
+                content: "Sale";
+                position: absolute;
+                background-color: #ea5c5c;
+                color: #fef4f4;
+                padding: 5px 9px;
+                font-size: 12px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                border-radius: 1px;
+                top: 3%;
+                left: 5%;
+            }
+        }
+
+        .related__product.new {
+            position: relative;
+
+            &::after {
+                content: "New";
+                position: absolute;
+                background-color: #ffb128;
+                color: #fef4f4;
+                padding: 5px 9px;
+                font-size: 12px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                border-radius: 1px;
+                top: 3%;
+                left: 5%;
+            }
+        }
+
+
+    }
+}

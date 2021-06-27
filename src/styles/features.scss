@@ -1,0 +1,38 @@
+.features__inner {
+    display: flex;
+    border-top: 1px solid hsl(0, 0%, 93%);
+    align-items: center;
+    margin-bottom: 50px;
+
+
+    .feature__item {
+        padding-top: 38px;
+        border-right: 1px solid #ececec;
+        text-align: center;
+        width: 25%;
+
+        &:last-child {
+            border: none;
+        }
+
+        .feature__name {
+            margin-top: 20px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-size: 13px;
+            letter-spacing: 0.65px;
+            text-transform: uppercase;
+            color: #222222;
+        }
+
+        .feature__text {
+            letter-spacing: .26px;
+            font-size: 13px;
+            font-family: 'Roboto', sans-serif;
+            color: #999999;
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+    }
+}
